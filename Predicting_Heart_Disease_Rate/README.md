@@ -1,9 +1,15 @@
 # Predicting Heart Disease Rate (PHDR)
 
 ## Table of Contents
+1. [Overview](#overview)
+2. [Project Notebooks](#project-notebooks)
+  - Compressed Notebook
+  - Detailed Notebook
+  - Data Wrangling and EDA
+  - Creating the Model
+3. [Executive Summary](#exeutive-summary)
 
-
-## Project Overview
+## Overview
 The goal is to predict the rate of heart disease (per 100,000 individuals) across the United States at the county-level from other socioeconomic indicators. Data was scraped from the USDA ERS website.
 
 The target column is labeled `heart_disease_mortality_per_100k` which is in the 'Training_labels.csv' file.
