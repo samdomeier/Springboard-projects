@@ -13,6 +13,9 @@ For more reference, you can access the original kaggle dataset here: [Predicting
 ## Project Structure
 This project consists of 4 major notebooks:
 * [Compressed Notebook](https://github.com/samdomeier/Springboard-projects/blob/master/Predicting_Heart_Disease_Rate/PHDR_compressed_notebook.ipynb)
+  > Recommended if you only have a couple of minutes to review this project.
+
+  The compressed notebook contains a shortened version of the "Detailed Notebook". It will include partial EDA, full data wrangling/cleaning, and only the final model with results.
 * [Detailed Notebook](https://github.com/samdomeier/Springboard-projects/blob/master/Predicting_Heart_Disease_Rate/PHDR_detailed_notebook.ipynb)
 * [Data Wrangling and EDA](https://github.com/samdomeier/Springboard-projects/blob/master/Predicting_Heart_Disease_Rate/PHDR_data_wrangling_and_EDA.ipynb)
 * [Creating the Model](https://github.com/samdomeier/Springboard-projects/blob/master/Predicting_Heart_Disease_Rate/PHDR_creating_the_model.ipynb)
