@@ -15,7 +15,7 @@
 This repository contains projects that were done using `python`, `MySQL`, and general Microsoft software.
 
 This repository currently contains one major project.
-* ![Predicting Heart Disease Rate in the US](https://github.com/samdomeier/Springboard-projects/tree/master/Predicting_Heart_Disease_Rate)
+* !![Predicting Heart Disease Rate in the US](https://github.com/samdomeier/Springboard-projects/tree/master/Predicting_Heart_Disease_Rate)
 
 
 ## Getting Started With this
