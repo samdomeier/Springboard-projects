@@ -4,6 +4,7 @@
 
 # Springboard Projects Repository
 > This repository contains projects and material that was completed for the Data Science Career Track at Springboard.
+> This course offers 500+ hours of professional material for developing your data science and machine learning knowledge with a focus in python.
 
 # Table of Contents
 * [About the repository](#about-the-repository)
