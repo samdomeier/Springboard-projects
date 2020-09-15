@@ -1,3 +1,3 @@
 # Springboard-projects
 
-<img src="images/springboard_logo.png">
+<img src="images/springboard_logo.png" width=400 height=100>
