@@ -43,4 +43,6 @@ For the final step in my model creation, there were four methods that were consi
 | XGBR	| XGBRegressor	| 0.761532	| 3.279330	| 0.118036 |
 | GBR	| GradientBoostingRegressor	| 0.753177	| 2.304990	| 0.084161 |
 
+---
+
 The model that I decided to go with uses the `XGBRegressor`. It was the second most efficient model considered, and it had a score considerably close to the top two performing model scores.
