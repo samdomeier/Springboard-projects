@@ -7,26 +7,17 @@
 
 # Table of Contents
 * [About the repository](#about-the-repository)
-* [Getting Started](#getting-started-with-this)
+* [Data science projects](#data-science-projects)
+* [SQL Projects](#sql-projects)
 
 
 
 ## About the Repository
 This repository contains projects that were done using `python`, `MySQL`, and general Microsoft software.
 
-This repository currently contains one major data science project.
+## Data Science Projects
+There is currently one major data science project.
 * [Predicting Heart Disease Rate in the US](https://github.com/samdomeier/Springboard-projects/tree/master/Predicting_Heart_Disease_Rate)
 
-
-## Getting Started With this
-
-
-## General notes for formating
-
-To reference code, use this format:
-```
-print('Hello, World.")
-```
-or use `print()`
-
-**bold** *italic* ***bold italic***
+## SQL Projects
+* Not yet in this repository
