@@ -36,6 +36,7 @@ This project consists of 4 major notebooks:
 ## Executive Summary
 
 |  | Model Description	| Model Score	| Mean Fit Time (s)	| Std Fit Time |
+| --- | --- | --- | --- | --- |
 | BR_XGBR	| BaggingRegressor with XGBRegressor	| 0.777075	| 74.660406	| 0.786755 |
 | ABR_RFR	| AdaBoostRegressor with RandomForestRegressor	| 0.762149	| 49.474793	| 1.124591 |
 | XGBR	| XGBRegressor	| 0.761532	| 3.279330	| 0.118036 |
