@@ -3,10 +3,12 @@
 ## Table of Contents
 1. [Overview](#overview)
 2. [Project Notebooks](#project-notebooks)
+
   - Compressed Notebook
   - Detailed Notebook
   - Data Wrangling and EDA
   - Creating the Model
+  
 3. [Executive Summary](#exeutive-summary)
 
 ## Overview
