@@ -8,7 +8,7 @@
     - Data Wrangling and EDA
     - Creating the Model
   
-3. [Executive Summary](#exeutive-summary)
+3. [Executive Summary](#executive-summary)
 
 ## Overview
 The goal is to predict the rate of heart disease (per 100,000 individuals) across the United States at the county-level from other socioeconomic indicators. Data was scraped from the USDA ERS website.
