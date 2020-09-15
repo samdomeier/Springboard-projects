@@ -11,7 +11,7 @@ The target column is labeled `heart_disease_mortality_per_100k` which is in the 
 For more reference, you can access the original kaggle dataset here: [Predicting heart disease rate](https://www.kaggle.com/nandvard/microsoft-data-science-capstone).
 
 ## Project Notebooks
-This project consists of 4 major notebooks:
+This project consists of four major notebooks:
 
 * [Compressed Notebook](https://github.com/samdomeier/Springboard-projects/blob/master/Predicting_Heart_Disease_Rate/PHDR_compressed_notebook.ipynb)
   > Recommended if you only have a couple of minutes to review this project.
@@ -34,6 +34,7 @@ This project consists of 4 major notebooks:
   This will have every step in the "Detailed Notebook" for the model creation.
 
 ## Executive Summary
+For the final step in my model creation, there were four methods that were considered for hyperparameter tuning. The results can be seen in the table below.
 
 |  | Model Description	| Model Score	| Mean Fit Time (s)	| Std Fit Time |
 | --- | --- | --- | --- | --- |
@@ -41,3 +42,5 @@ This project consists of 4 major notebooks:
 | ABR_RFR	| AdaBoostRegressor with RandomForestRegressor	| 0.762149	| 49.474793	| 1.124591 |
 | XGBR	| XGBRegressor	| 0.761532	| 3.279330	| 0.118036 |
 | GBR	| GradientBoostingRegressor	| 0.753177	| 2.304990	| 0.084161 |
+
+The model that I decided to go with uses the `XGBRegressor`. It was the second most efficient model considered, and it had a score considerably close to the top two performing model scores.
