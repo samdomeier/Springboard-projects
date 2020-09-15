@@ -12,6 +12,10 @@
 
 
 ## About the Repository
+To reference code, use this format:
+```
+print('Hello, World.")
+```
 
 
 ## Getting Started With this
