@@ -1,3 +1,3 @@
 # Springboard-projects
 
-All of this
+<img src="images/springboard_logo.png">
