@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/springboard_logo.png" width=500 height=125>
+  <img src="images/springboard_logo.png" width=600 height=150>
 </p>
 
 # Springboard Projects Repository
