@@ -10,8 +10,9 @@ The target column is labeled `heart_disease_mortality_per_100k` which is in the 
 
 For more reference, you can access the original kaggle dataset here: [Predicting heart disease rate](https://www.kaggle.com/nandvard/microsoft-data-science-capstone).
 
-## Project Structure
+## Project Notebooks
 This project consists of 4 major notebooks:
+
 * [Compressed Notebook](https://github.com/samdomeier/Springboard-projects/blob/master/Predicting_Heart_Disease_Rate/PHDR_compressed_notebook.ipynb)
   > Recommended if you only have a couple of minutes to review this project.
 
