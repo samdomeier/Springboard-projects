@@ -6,8 +6,8 @@
 > Here is some information in quote format to describe this repository
 
 # Table of Contents
-* [About the repository](#About the repository)
-* [Getting Started](#Getting Started With this)
+* [About the repository](#about-the-repository)
+* [Getting Started](#getting-started-with-this)
 
 
 
