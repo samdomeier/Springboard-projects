@@ -16,7 +16,6 @@
 This repository contains projects that were done using `python`, `MySQL`, and general Microsoft software.
 
 ## Data Science Projects
-There is currently one major data science project.
 * [Predicting Heart Disease Rate in the US](https://github.com/samdomeier/Springboard-projects/tree/master/Predicting_Heart_Disease_Rate)
 * [Advanced Exploratory Data Analysis of Pulmonary Embolisms Using DICOM Data](https://github.com/samdomeier/Data-Science-Projects/blob/master/CT%20Image%20Analysis/CT%20Image%20Analysis.ipynb)
 
