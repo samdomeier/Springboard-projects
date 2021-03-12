@@ -76,15 +76,15 @@ The modeling process was divided into two steps.
 
 A quick snippet of the results are listed below in order of dataframes created with a correlation coefficient of 0.9, 0.75, and 0.6, respectively.
 <p align="center">
-  <img src="images/df1_results.png" width=600 height=150>
+  <img src="images/df1_results.png" width=600 height=100>
 </p>
 
 <p align="center">
-  <img src="images/df2_results.png" width=600 height=150>
+  <img src="images/df2_results.png" width=600 height=100>
 </p>
 
 <p align="center">
-  <img src="images/df3_results.png" width=600 height=150>
+  <img src="images/df3_results.png" width=600 height=100>
 </p>
 
 2. **Evaluate the top model from step one (df #2) and perform hyperparameter tuning using an ensembled method**
