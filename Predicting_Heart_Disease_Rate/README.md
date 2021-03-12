@@ -54,7 +54,7 @@ The results for this evalutation can be seen below.
   <img src="images/model_step1.png" width=550 height=600>
 </p>
 
-2. Based on the outcome of step 1, select the best performing regressors to be used for ensamble modeling evaluation. The regressors selected are listed below.
+2. Based on the outcome of step 1, select the best performing regressors to be used for ensemble modeling evaluation. The regressors selected are listed below.
 
     - LinearRegression
     - XGBRegressor
