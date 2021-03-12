@@ -22,7 +22,7 @@ For this project, I have created a local database that I used to train my model.
     - To give an example of how RSI and bollinger bands can be used, I have added a figure with some detail. In the figure, the red indicates a SELL opportunity, and green indicates a BUY opportunity. For both of the lines/positions in the figure, there are two arrows fixed on the line. Let's focus on the red/SELL area. The top arrow comes right after the price had touched the upper bollinger band. The bottom arrow shows where the RSI just crossed down from the top boundary of the RSI. Whenever price is touching a bollinger band, it will likely soon jump off of it in the opposite direction. Just like when the RSI crosses from outside of the boundary (dotted line in RSI chart) back into the boundary, it indicates that price has potential to reverse soon. You can see this happening in both examples.
     
 <p align="center">
-  <img src="images/rsi_and_bb.png" width=750 height=600>
+  <img src="images/rsi_and_bb.png" width=750 height=500>
 </p>
 
 - **Twitter data for specific currency pairs to create a sentiment analysis during the time of trade execution.**
