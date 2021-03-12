@@ -63,6 +63,7 @@ For this model, I created a function to do the feature engineering once I decide
 
 ## Modeling Process and Results
 For the modeling process, I decided to create three different dataframes with features filtered out based on different correlation coefficients. I used the following correlation coefficients:
+
     - 0.9, 0.75, and 0.6
     - Because a lot of these features are derived from price, they become highly correlated to eachother
 
