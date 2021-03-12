@@ -40,13 +40,6 @@ This project consists of four major notebooks:
 ## Modeling Process with Results
 I approached the modeling process into three steps:
 
-    regressors.append(LinearRegression())
-    regressors.append(LinearSVR(random_state=rs))
-    regressors.append(SVR())
-    regressors.append(RandomForestRegressor(n_estimators=25, random_state=rs))
-    regressors.append(GradientBoostingRegressor())
-    regressors.append(XGBRegressor())
-
 1. Identify 5+ regressors that could be a potential fit for our model, and do a quick model evaluation with cross-validation. The models that were evaluated are listed below.
 
     - LinearRegression
