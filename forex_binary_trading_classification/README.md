@@ -57,16 +57,16 @@ This project consists of two major notebooks:
   > Notebook used to create real-time predictions when the datamining notebook is running
 
 ## Feature Engineering
-For the feature engineering portion, I am taking the local database that I've created and creating specific features that I want to use for this project. Specifically, we are taking the event information created from the funcitons mining from Forex Factory, and creating features based on these results.
-- In the feature engineering function, we provide a variable that filters out features based on correlation to each other.
-- Since the database is locally created, I could continue to mine data but with this comes drawbacks. Since I was only able to allow this datamining to run for a short period of time (roughly 24 hours over a 2 week period), my data isn't as diverse as I would have liked. Because of this, I need to filter out features due to lack of variance. For example, I will eliminating a categorical column if more than 70% of the values are the same.
-- For modeling purposes, we will be considering different correlation coefficients to filter out features. The following will be used:
-    - 0.9, 0.75, and 0.6 (so if a feature has a 0.9 correlation coefficient to another feature, I will only keep one)
-    - Because a lot of these features are derived from price action, they become highly correlated.
+When designing the data mining notebook, I created it so that the data could be feature engineered in many different ways. For example, the event information that I scraped from ForexFactory was compiled into dictionaries rather than simple data types. I felt this gave me the freedom to take my feature engineering any direction that I wanted to, and it allows me to build different models in the foreseeable future.
 
+For this model, I created a function to do the feature engineering once I decided on a direction. In this function, there is a variable that filters out features based on their correlation to each other. Since a lot of these features are derived from the same source, it leads to a lot of highly correlated features. Another drawback that I faced was the lack of data diversity in the sample that I mined. Since the database was created locally, I was only able to scrape data over a short period, which ended up being roughly 2 weeks, on-and-off. Because of this, I needed to filter out features due to lack of variance. For example, it will eliminate a categorical column if more than 70% of the values are the same.
 
 ## Modeling Process and Results
-The modeling process was divided into two steps.
+For the modeling process, I decided to create three different dataframes with features filtered out based on different correlation coefficients. I used the following correlation coefficients:
+    - 0.9, 0.75, and 0.6
+    - Because a lot of these features are derived from price, they become highly correlated to eachother
+
+**The modeling process was divided into two steps.**
 
 1. **Perform a base model evaluation for all three dataframes using the following classifiers.**
     - RandomForestClassifier
