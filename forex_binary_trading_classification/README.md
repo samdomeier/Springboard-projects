@@ -12,7 +12,7 @@
 5. [Conclusion and Future Considerations](#conclusion-and-future-considerations)
 
 ## Overview
-The goal of this project is to try and create a binary classification model for trading foreign exchange currencies. The style of trading that this model will be created for is binary trading - essentially executing a trade based on whether or not you think it will go up or down from where it is in that moment. This style of trading allows for a fixed win/loss amount (win is roughly 70-80% of original position, loss is full position), where the length of a typical position is anywhere from 1-30 minutes.
+The goal of this project is to try and create a binary classification model for trading foreign exchange currencies. This model was created for a style of trading called binary trading - essentially executing a trade based on whether or not you think price will go up or down from where it is in that moment. Binary trading allows for a fixed win/loss amount (win is roughly 70-80% of original position, loss is full position), where the length of a typical position is anywhere from 1-30 minutes. 
 
 ## The data
 For this project, I have created a local database that I used to train my model. The data was compiled using different API's and functions that I created to mine specific features. The database consists of the following data:
