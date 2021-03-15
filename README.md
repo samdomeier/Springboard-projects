@@ -13,3 +13,6 @@
 > The goal of this project is to try and create a binary classification model for trading foreign exchange currencies. This model was created for a style of trading called binary trading - essentially executing a trade based on whether or not you think price will go up or down from where it is in that moment. Binary trading allows for a fixed win/loss amount (win is roughly 70-80% of original position, loss is full position), where the length of a typical position is anywhere from 1-30 minutes.
 
 * [Advanced Exploratory Data Analysis of Pulmonary Embolisms Using DICOM Data](https://github.com/samdomeier/Data-Science-Projects/blob/master/CT%20Image%20Analysis/CT%20Image%20Analysis.ipynb)
+
+## Case Studies
+This folder contains assessments which utilize many different machine learning algorithms and techniques including clustering, random forests, classification and regression model types. It also displays the use of SQL queries using Jupyter Notebooks and PHPMyAdmin.
